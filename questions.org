@@ -1,0 +1,72 @@
+
+* Questions
+** Links
+*Q: Please include any that you have: GitHub, LinkedIn, personal web site, etc.*
+
+** Code CracklePop
+*Q: Write a program that prints out the numbers 1 to 100 (inclusive). If the number is divisible by 3, print Crackle instead of the number. If it's divisible by 5, print Pop. If it's divisible by both 3 and 5, print CracklePop. You can use any language.*
+
+** Please link to a program you've written from scratch.
+*Q: You can use something like GitHub's gist to host your code. It doesn't need to be long, but it should be something you've written yourself, and not using a framework (e.g., Rails). If you don't have anything to submit, code something small, like a game of tic-tac-toe.*
+
+** What is the most fascinating thing you've learned in the past month?
+*Q: This doesn't have to be about programming.*
+
+** What do you want to be doing in two years?
+
+** Why do you want to attend RC? How would attending RC be different than working on your own?
+
+** What would you like to work on at RC?
+*Q: E.g., things you want to learn or understand better, projects you want to build or contribute to, etc. Consider where the edge of your abilities is, and where you’d like it to be at the end of your batch.*
+
+** Do you plan to attend RC in-person, remotely, or some combination of the two? How will this affect your working style?
+*Q: If you'll be attending fully or partly remotely: have you worked remotely in the past? What was successful or challenging about that experience for you?*
+
+* Background
+This information will not disqualify your application. We use it to better get to know our applicants and where they currently are.
+** Describe your programming background in a few sentences.
+** Have you worked professionally as a programmer?
+*Q: If so, please describe your experience.*
+** Do you have a Computer Science degree or are you seeking one?
+** What other commitments (work, life, family) would you have during your batch?
+*Q: RC is a full-time commitment, and we ask that you plan to participate Monday-Friday during our core hours (11 am - 5 pm ET).*
+** How did you first hear about RC?
+/Dropdown/
+*Q: Where specifically (e.g., which friend, conference, etc.)?*
+** How long ago did you first hear about RC?
+/Dropdown/
+
+** What convinced you to apply today?
+- [ ] I just learned about RC
+- [ ] I was just reminded about RC
+- [ ] I'm ready to switch careers
+- [ ] I'm ready to switch programming jobs
+- [ ] I'm ready to leave academia
+- [ ] I'm ready for a professional sabbatical
+- [ ] I lost my job
+- [ ] I'm looking for a programming job and haven't found one yet
+- [ ] It aligns with my family schedule (e.g., children off to college, partner's new job)
+- [ ] It aligns with my academic schedule (e.g., summer break, graduation)
+- [ ] It aligns with my work schedule (able to take time off)
+- [ ] I've finally saved enough money to be able to go to RC
+- [ ] I just learned enough programming to be qualified
+- [ ] I was rejected in the past, and waited until I could reapply
+- [ ] It was arbitrary
+- [ ] Other
+* Alumni interviewers
+*Q: Recurse Center alumni interview most applicants. If you work with alumni and you don't want them to know you're applying, please enter their name(s) here. Please enter full names, separated by commas.*
+*Q: Don't let these Recurse Center alumni see my application:*
+
+* Demographic info
+*Q: We want the Recurse Center to be a diverse place. We ask for demographic information so we can measure how well we're doing. Sharing this information is optional.*
+
+*Q: We previously offered need-based living expense grants for women, non-binary people, trans people, and people from racial and ethnic groups traditionally underrepresented in programming. Unfortunately, we have paused our grants program due to budget concerns.*
+
+*I identify as… (check all that apply)*
+- [ ] A woman
+- [ ] Black
+- [ ] Latina, Latino, or Latinx
+- [ ] Native American
+- [ ] Pacific Islander
+- [ ] Trans, genderqueer, or nonbinary
+- [ ] Other
