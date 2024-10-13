@@ -5,6 +5,9 @@
 - https://sachiniyer.com
 - https://github.com/sachiniyer
 - https://www.linkedin.com/in/sachin-iyer-8b2735217
+
+- https://blog.sachiniyer.com
+- https://mastodon.social/@ripe_mango
 ** Code CracklePop
 *Q: Write a program that prints out the numbers 1 to 100 (inclusive). If the number is divisible by 3, print Crackle instead of the number. If it's divisible by 5, print Pop. If it's divisible by both 3 and 5, print CracklePop. You can use any language.*
 
@@ -28,60 +31,90 @@ fn main() {
 ** Please link to a program you've written from scratch.
 *Q: You can use something like GitHub's gist to host your code. It doesn't need to be long, but it should be something you've written yourself, and not using a framework (e.g., Rails). If you don't have anything to submit, code something small, like a game of tic-tac-toe.*
 
-I don't fully understand what no frameworks means, but [[https://github.com/sachiniyer/mastodon-status][my cluster status tracker]] is a simple project that has minimal dependencies/frameworks surrounding it.
+The no frameworks restriction throws me for a bit of a loop (what is a framework really?), but [[https://github.com/sachiniyer/mastodon-status][my cluster status tracker]] is a simple project that has minimal dependencies/frameworks surrounding it.
 
 If the goal is to analyze something that does not use any packages outside of the basic language, the following two projects might be better:
 - [[https://github.com/sachiniyer/batch-ansible-cli][a utility for running ansible notebooks]] (uses clap for command line parsing, and serde for custom object representation)
 - [[https://github.com/sachiniyer/website][my website]] (almost completely pure html and css)
 
-If none of that works I found a [[https://gist.github.com/sachiniyer/58d42efa2c48d4c8df6d9e551ecfbf18][version of tic-tac-toe]] in my backups from 2016. I think I wrote this in 9th grade for an AP Computer Science Course. Afaik, it is compatible with Java 1.5 (when the [[https://docs.oracle.com/javase/1.5.0/docs/api/java/util/package-summary.html][scanner module]] was introduced?).
-
+If none of that works I found a [[https://gist.github.com/sachiniyer/58d42efa2c48d4c8df6d9e551ecfbf18][java version of tic-tac-toe]] in my backups from 2016. I think I wrote this in 9th grade for an AP Computer Science Course. Afaik, it is backwards compatible up till Java 1.5 (when the [[https://docs.oracle.com/javase/1.5.0/docs/api/java/util/package-summary.html][scanner module]] was introduced?).
 ** What is the most fascinating thing you've learned in the past month?
 *Q: This doesn't have to be about programming.*
 
-When I was in high school, I really loved mechanical engineering. This love was fostered through FIRST robotics and projects like [[https://github.com/sachiniyer/Electric-Trombone][my electronic trombone]]. One of the things that fascinated me were the building block concepts that were used as foundational abstractions to build more complex machines.
+When I was in high school, I really loved mechanical engineering. This love was fostered through FIRST robotics and projects like [[https://github.com/sachiniyer/Electric-Trombone][my electronic trombone]]. I was captivated by building block concepts that are used as foundational abstractions to build more complex machines. Mechanical foundational abstractions are more fascinating to me than some software abstractions because there is a smaller abstraction stack. These concepts go straight to physics equations.
 
 Some examples:
-- Need to convert rotational motion into linear motion? Use a [[https://en.wikipedia.org/wiki/Rack_and_pinion][rack and pinion]].
-- Want to create both longitudinal and rotational movement in your wheel base? Use a [[https://en.wikipedia.org/wiki/Mecanum_wheel][Mecanum wheel]].
-- Struggling with machine vibration, and need to adjust for some resonant frequency? Use a [[https://en.wikipedia.org/wiki/Tuned_mass_damper][Tuned Mass Damper]]
+- Need to convert rotational motion into linear motion? Use a [[https://en.wikipedia.org/wiki/Rack_and_pinion][Rack and Pinion]].
+- Want to create both longitudinal and rotational movement in your wheel base? Use a [[https://en.wikipedia.org/wiki/Mecanum_wheel][Mecanum Wheel]].
+- Struggling with machine vibration, and need to adjust for some resonant frequency? Use a [[https://en.wikipedia.org/wiki/Tuned_mass_damper][Tuned Mass Damper]].
 
-One of my friends is courting an offer from [[https://apptronik.com/][apptronik]] and introduced a new concept to me of a elastic intermediary coupling two rotational components resulting a safer, complaint rotational mechanism ([[https://sites.utexas.edu/hcrl/files/2018/06/Screen-Shot-2018-06-17-at-9.02.49-PM.png][image of the actuator]] and [[https://sites.utexas.edu/hcrl/graduate-research/][research lab]]). I am /fascinated/ by how a seemingly simple, foundational idea can lead to such large changes in the robotics space (especially around human safety).
-
+One of my friend, who courting an offer from [[https://apptronik.com/][apptronik]], introduced me to their novel building block of an elastic intermediary coupling two rotational components. This results in a safer and complaint rotational mechanism ([[https://sites.utexas.edu/hcrl/files/2018/06/Screen-Shot-2018-06-17-at-9.02.49-PM.png][image of the actuator]] and [[https://sites.utexas.edu/hcrl/graduate-research/][research lab]]). I am /fascinated/ by how a seemingly simple, foundational idea can lead to such large changes in the robotics space (especially around human safety). Additionally, the idea of elastic being a force driving component is quite unintuitive to me, which makes it all the more fascinating.
 ** What do you want to be doing in two years?
+After working in software engineering professionally for about a year, I am realizing that I want to work on a project/product that I find interesting. I hope I have made a commitment to a company and am working on that project/problem.
 
+Interesting project/product to me is:
+- Somewhat technically interesting - I need to satisfy my urge to solve puzzle-like problems
+- Brings some sort of value - giving people something of value and doing general worldly good improves my self-worth
+- Something I have passion for - a base emotional connection from a variety of factors (definitely the most fuzzy qualification)
+
+Interesting project/product to me does not require (assume disjunction):
+- Purely technically challenging
+- Generating large monetary returns
+- Attached to lots of prestige
+- In a defined area of tech (e.g. machine learning)
 ** Why do you want to attend RC? How would attending RC be different than working on your own?
+*** Commitment to Unstructured Time
+One of my best decisions in hindsight was to take a gap year between high school and college. It gave me unstructured time to develop a passion for technology and create some of the coolest stuff I've done to date.
 
+A quick summary of the highlights:
+- Played weekly jazz gigs at a local restaurant with my friends
+- Played in 3 big bands, 2 quartets, and an orchestra
+- Served with an [[https://americorps.gov/serve/americorps/americorps-vista][AmeriCorps Vista]] to teach FIRST Robotics to 3 elementary schools and 2 middle schools (and developed an educational plan to go along with it)
+- Took some courses (3 community college courses, [[https://coursera.org/share/29802cca497e8680b26b241d0ef50b59][Andrew Ng's Machine Learning Course]], [[https://coursera.org/share/daef661212dab251985d69e4fb71f730][AWS Certification]])
+- A slew projects ([[https://github.com/sachiniyer/Hercules][singing hercules doll]], rfid implants, [[https://github.com/sachiniyer/Electric-Trombone][electronic trombone]], [[https://github.com/sachiniyer/foot-pedal][guitar foot pedal]], [[https://github.com/sachiniyer/delivery-service][grocery delivery scheduler]], my original website, websites for friends)
+- Contracted for a book publisher to write them a simple [[https://github.com/sachiniyer/book-recommendation][book recommendation engine]]
+- An internship at Hewlett Packard Enterprise
+
+Since then, I have been committed to school or a company and have not had a chance to pursue projects like this. RC would give me the chance to formalize a commitment to a period of unstructured time. Without RC, I fear that I'll find myself in another structured commitment without giving myself a chance to explore some cool ideas.
+
+My dad says "ideas are like flowers, they need room to bloom".
+*** Make cool/smart friends
+One of my worst decisions in hindsight was to graduate early from college. I lost a chance to interact and learn with cool/smart people in a friendly environment (especially with covid impacting my first two years). Additionally, I miss the vibrant discussions that I used to have with my friends about ideas and problems.
+
+I see RC as a chance to recover from that loss and carve out time to build connections and learn from my peers. I would consider this goal succeeded if I maintain one connection past the RC event who I continue to learn from. I also think that anything that I build alone will at least be marginally worse than something I build with others.
+*** Recruitment Opportunities
+Quoting myself from earlier, my two year goal is to "make a commitment to a company and [work] on that project/problem." I am not currently at a place where I am able to make that commitment. I hope to be in a place to make that commitment soon. I think that the recurse center could help me along that journey of finding the company and project/product that is "interesting".
 ** What would you like to work on at RC?
 *Q: E.g., things you want to learn or understand better, projects you want to build or contribute to, etc. Consider where the edge of your abilities is, and where you’d like it to be at the end of your batch.*
 
 ** Do you plan to attend RC in-person, remotely, or some combination of the two? How will this affect your working style?
 *Q: If you'll be attending fully or partly remotely: have you worked remotely in the past? What was successful or challenging about that experience for you?*
 
-I plan to attend in-person. Although I am currently based in Seattle, I struggle to work remotely, and think I would benefit from being in person. I also went to college in that same area, and would love to go back (lived next to Brooklyn Bridge Park).
+I plan to attend in-person. I struggle to focus in remote environments, and value home and work separation.
+
+Additionally, 397 Bridge St is 2 blocks away from where I used to live while at NYU. I would cherish the opportunity to come back.
 * Background
 This information will not disqualify your application. We use it to better get to know our applicants and where they currently are.
 ** Describe your programming background in a few sentences.
+I have been programming since I was around 14 (in the aforementioned AP Computer Science Course). I pursued a bachelors degree in computer science, have done internships in various companies, and it is now my profession. For the last 3 years, I estimate my average daily heads-down coding time to be ~3hrs.
 ** Have you worked professionally as a programmer?
 *Q: If so, please describe your experience.*
 
-Yes, my [[https://sachiniyer.com/resume][resume]] has my full work history, but currently I work at AWS building our GenAI offering called Bedrock. Specifically, I build our batch inference and provisioned inference offerings.
+Yes, my [[https://sachiniyer.com/resume][resume]] has my full work history, but currently I work at AWS building our GenAI offering called Bedrock. Specifically, I build batch and provisioned inference (send a bunch of prompts together or reserve a dedicated endpoint to send prompts to).
 ** Do you have a Computer Science degree or are you seeking one?
 
-Yes, I have a Computer Science Degree from New York University. I am not seeking to get into any programs, but have an offer to do my Masters at NYU in Fall 2025.
+Yes, I have a Computer Science Degree from New York University. I am not seeking to get into any programs, but have an offer for my Masters at NYU in Fall 2025 (I have not committed to attending yet).
 ** What other commitments (work, life, family) would you have during your batch?
 *Q: RC is a full-time commitment, and we ask that you plan to participate Monday-Friday during our core hours (11 am - 5 pm ET).*
 
-If I get into RC, I do not plan to work during that time. I also don't have any dependents to take care of. I anticipate my commitments being very sparse.
+If I get into RC, I will not work during that time. I also don't have any dependents to take care of. I anticipate my other commitments being very sparse.
 ** How did you first hear about RC?
-/Dropdown/
+/Dropdown: A friend/coworker who didn't go to RC/
 *Q: Where specifically (e.g., which friend, conference, etc.)?*
 
-[[https://aneeshmaganti.com/][Aneesh Maganti]]
+[[https://aneeshmaganti.com/][Aneesh Maganti]] and [[https://nyucswiki.com/docs/Opportunities/Fellowships][NYU CS Wiki]]
 ** How long ago did you first hear about RC?
-/Dropdown/
-
-2 years ago, when I was in college.
+/Dropdown: 1-2 years ago/
 ** What convinced you to apply today?
 - [ ] I just learned about RC
 - [ ] I was just reminded about RC
@@ -98,7 +131,7 @@ If I get into RC, I do not plan to work during that time. I also don't have any 
 - [ ] I just learned enough programming to be qualified
 - [ ] I was rejected in the past, and waited until I could reapply
 - [ ] It was arbitrary
-- [ ] Other
+- [x] Other - I'm ready to enter academia
 * Alumni interviewers
 *Q: Recurse Center alumni interview most applicants. If you work with alumni and you don't want them to know you're applying, please enter their name(s) here. Please enter full names, separated by commas.*
 *Q: Don't let these Recurse Center alumni see my application:*
