@@ -27,9 +27,16 @@ fn main() {
 ** Please link to a program you've written from scratch.
 *Q: You can use something like GitHub's gist to host your code. It doesn't need to be long, but it should be something you've written yourself, and not using a framework (e.g., Rails). If you don't have anything to submit, code something small, like a game of tic-tac-toe.*
 
+
 ** What is the most fascinating thing you've learned in the past month?
 *Q: This doesn't have to be about programming.*
 
+Draft Ideas:
+- cgroups
+- UT Austin Harmony elastic mechanic action
+- Idea from Free Culture
+- Emacs corfu (specifically Capf and miniwindow rendering in emacs)
+- python rust dll interaction
 ** What do you want to be doing in two years?
 
 ** Why do you want to attend RC? How would attending RC be different than working on your own?
@@ -40,31 +47,41 @@ fn main() {
 ** Do you plan to attend RC in-person, remotely, or some combination of the two? How will this affect your working style?
 *Q: If you'll be attending fully or partly remotely: have you worked remotely in the past? What was successful or challenging about that experience for you?*
 
+I plan to attend in-person. Although I am currently based in Seattle, I struggle to work remotely, and think I would benefit from being in person. I also went to college in that same area, and would love to go back (lived next to Brooklyn Bridge Park).
 * Background
 This information will not disqualify your application. We use it to better get to know our applicants and where they currently are.
 ** Describe your programming background in a few sentences.
 ** Have you worked professionally as a programmer?
 *Q: If so, please describe your experience.*
+
+Yes, my [[https://sachiniyer.com/resume][resume]] has my full work history, but currently I work at AWS building our GenAI offering called Bedrock. Specifically, I build our batch inference and provisioned inference offerings.
 ** Do you have a Computer Science degree or are you seeking one?
+
+Yes, I have a Computer Science Degree from New York University. I am not seeking to get into any programs, but have an offer to do my Masters at NYU in Fall 2025.
 ** What other commitments (work, life, family) would you have during your batch?
 *Q: RC is a full-time commitment, and we ask that you plan to participate Monday-Friday during our core hours (11 am - 5 pm ET).*
+
+If I get into RC, I do not plan to work during that time. I also don't have any dependents to take care of. I anticipate my commitments being very sparse.
 ** How did you first hear about RC?
 /Dropdown/
 *Q: Where specifically (e.g., which friend, conference, etc.)?*
+
+[[https://aneeshmaganti.com/][Aneesh Maganti]]
 ** How long ago did you first hear about RC?
 /Dropdown/
 
+2 years ago, when I was in college.
 ** What convinced you to apply today?
 - [ ] I just learned about RC
 - [ ] I was just reminded about RC
 - [ ] I'm ready to switch careers
-- [ ] I'm ready to switch programming jobs
+- [x] I'm ready to switch programming jobs
 - [ ] I'm ready to leave academia
-- [ ] I'm ready for a professional sabbatical
+- [x] I'm ready for a professional sabbatical
 - [ ] I lost my job
 - [ ] I'm looking for a programming job and haven't found one yet
 - [ ] It aligns with my family schedule (e.g., children off to college, partner's new job)
-- [ ] It aligns with my academic schedule (e.g., summer break, graduation)
+- [x] It aligns with my academic schedule (e.g., summer break, graduation)
 - [ ] It aligns with my work schedule (able to take time off)
 - [ ] I've finally saved enough money to be able to go to RC
 - [ ] I just learned enough programming to be qualified
