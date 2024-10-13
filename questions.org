@@ -9,6 +9,7 @@
 *Q: Write a program that prints out the numbers 1 to 100 (inclusive). If the number is divisible by 3, print Crackle instead of the number. If it's divisible by 5, print Pop. If it's divisible by both 3 and 5, print CracklePop. You can use any language.*
 
 https://github.com/sachiniyer/rc-application/blob/master/cracklepop/src/main.rs
+
 #+BEGIN_SRC rust
 fn main() {
     (1..=100).for_each(|i| {
@@ -27,16 +28,26 @@ fn main() {
 ** Please link to a program you've written from scratch.
 *Q: You can use something like GitHub's gist to host your code. It doesn't need to be long, but it should be something you've written yourself, and not using a framework (e.g., Rails). If you don't have anything to submit, code something small, like a game of tic-tac-toe.*
 
+I don't fully understand what no frameworks means, but [[https://github.com/sachiniyer/mastodon-status][my cluster status tracker]] is a simple project that has minimal dependencies/frameworks surrounding it.
+
+If the goal is to analyze something that does not use any packages outside of the basic language, the following two projects might be better:
+- [[https://github.com/sachiniyer/batch-ansible-cli][a utility for running ansible notebooks]] (uses clap for command line parsing, and serde for custom object representation)
+- [[https://github.com/sachiniyer/website][my website]] (almost completely pure html and css)
+
+If none of that works I found a [[https://gist.github.com/sachiniyer/58d42efa2c48d4c8df6d9e551ecfbf18][version of tic-tac-toe]] in my backups from 2016. I think I wrote this in 9th grade for an AP Computer Science Course. Afaik, it is compatible with Java 1.5 (when the [[https://docs.oracle.com/javase/1.5.0/docs/api/java/util/package-summary.html][scanner module]] was introduced?).
 
 ** What is the most fascinating thing you've learned in the past month?
 *Q: This doesn't have to be about programming.*
 
-Draft Ideas:
-- cgroups
-- UT Austin Harmony elastic mechanic action
-- Idea from Free Culture
-- Emacs corfu (specifically Capf and miniwindow rendering in emacs)
-- python rust dll interaction
+When I was in high school, I really loved mechanical engineering. This love was fostered through FIRST robotics and projects like [[https://github.com/sachiniyer/Electric-Trombone][my electronic trombone]]. One of the things that fascinated me were the building block concepts that were used as foundational abstractions to build more complex machines.
+
+Some examples:
+- Need to convert rotational motion into linear motion? Use a [[https://en.wikipedia.org/wiki/Rack_and_pinion][rack and pinion]].
+- Want to create both longitudinal and rotational movement in your wheel base? Use a [[https://en.wikipedia.org/wiki/Mecanum_wheel][Mecanum wheel]].
+- Struggling with machine vibration, and need to adjust for some resonant frequency? Use a [[https://en.wikipedia.org/wiki/Tuned_mass_damper][Tuned Mass Damper]]
+
+One of my friends is courting an offer from [[https://apptronik.com/][apptronik]] and introduced a new concept to me of a elastic intermediary coupling two rotational components resulting a safer, complaint rotational mechanism ([[https://sites.utexas.edu/hcrl/files/2018/06/Screen-Shot-2018-06-17-at-9.02.49-PM.png][image of the actuator]] and [[https://sites.utexas.edu/hcrl/graduate-research/][research lab]]). I am /fascinated/ by how a seemingly simple, foundational idea can lead to such large changes in the robotics space (especially around human safety).
+
 ** What do you want to be doing in two years?
 
 ** Why do you want to attend RC? How would attending RC be different than working on your own?
