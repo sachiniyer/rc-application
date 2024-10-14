@@ -31,7 +31,7 @@ fn main() {
 The no frameworks restriction throws me for a bit of a loop (what is a framework really?), but [[https://github.com/sachiniyer/mastodon-status][my cluster status tracker]] is a simple project that has minimal dependencies/frameworks surrounding it.
 
 If the goal is to analyze something that does not use any packages outside of the basic language, the following two projects might be better:
-- [[https://github.com/sachiniyer/batch-ansible-cli][a utility for running ansible notebooks]] (uses clap for command line parsing, and serde for custom object representation)
+- [[https://github.com/sachiniyer/batch-ansible-cli][a utility for running ansible notebooks]] (uses clap for command line parsing, and serde for serialization)
 - [[https://github.com/sachiniyer/website][my website]] (almost completely pure html and css)
 
 If none of that works I found a [[https://gist.github.com/sachiniyer/58d42efa2c48d4c8df6d9e551ecfbf18][java version of tic-tac-toe]] in my backups from 2016. I think I wrote this in 9th grade for an AP Computer Science Course. Afaik, it is backwards compatible up till Java 1.5 (when the [[https://docs.oracle.com/javase/1.5.0/docs/api/java/util/package-summary.html][scanner module]] was introduced?).
@@ -65,7 +65,7 @@ One of my best decisions in hindsight was to take a gap year between high school
 
 A quick summary of the highlights:
 - Played weekly jazz gigs at a local restaurant with my friends
-- Played in 3 big bands, 2 quartets, and an orchestra
+- Played in 2 big bands, 2 quartets, and an orchestra
 - Served with an [[https://americorps.gov/serve/americorps/americorps-vista][AmeriCorps Vista]] to teach FIRST Robotics to 3 elementary schools and 2 middle schools (and developed an educational plan to go along with it)
 - Took some courses (3 community college courses, [[https://coursera.org/share/29802cca497e8680b26b241d0ef50b59][Andrew Ng's Machine Learning Course]], [[https://coursera.org/share/daef661212dab251985d69e4fb71f730][AWS Certification]])
 - A slew projects ([[https://github.com/sachiniyer/Hercules][singing hercules doll]], rfid implants, [[https://github.com/sachiniyer/Electric-Trombone][electronic trombone]], [[https://github.com/sachiniyer/foot-pedal][guitar foot pedal]], [[https://github.com/sachiniyer/delivery-service][grocery delivery scheduler]], my original website, websites for friends)
@@ -78,7 +78,7 @@ My dad says "ideas are like flowers, they need room to bloom".
 *** Make cool/smart friends
 One of my worst decisions in hindsight was to graduate early from college. I lost a chance to interact and learn with cool/smart people in a friendly environment (especially with covid impacting my first two years). Additionally, I miss the vibrant discussions that I used to have with my friends about ideas and problems.
 
-I see RC as a chance to recover from that loss and carve out time to build connections and learn from my peers. I would consider this goal succeeded if I maintain one connection past the RC event who I continue to learn from. I also think that anything that I build alone will at least be marginally worse than something I build with others.
+I see RC as a chance to recover from that loss and carve out time to build connections and learn from my peers. I would consider this goal succeeded if I maintain one connection past the RC event who I continue to learn from. Additionally, anything that I build alone will be at least marginally worse than something I build with others.
 *** Recruitment Opportunities
 Quoting myself from earlier, my two year goal is to "make a commitment to a company and [work] on that project/problem." I am not currently at a place where I am able to make that commitment. I hope to be in a place to make that commitment soon. I think that the recurse center could help me along that journey of finding the company and project/product that is "interesting".
 ** What would you like to work on at RC?
@@ -88,7 +88,7 @@ From my idea backlog, here are a few that I think could be a good fit:
 - Framework x230: Fix my thinkpad x230 by embedding a framework motherboard inside. The complex parts would be:
   - make [[https://github.com/qmk/qmk_firmware][qmk]] compatible with my thinkpad x230 keyboard and touchpad
   - figure out how set up the rest of the peripherals (sleep sensor, microphone, camera...)
-  - set up power distribution correctly and battery correctly
+  - set up power distribution and battery correctly
 - Hack together a wasm specific metal kernel for [[https://github.com/huggingface/candle/tree/main/candle-metal-kernels][candle]] (with [[https://tinyml.mit.edu/][tinyml]] constructs)
 - Fuzz [[https://www.ray.io/][ray]] and try to submit a CVE (I've already seen some sketchy code and it seems like a good target)
 - Re-implement (or implement for the first time) some seminal and novel ml papers e.g.
