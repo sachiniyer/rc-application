@@ -68,7 +68,7 @@ A quick summary of the highlights:
 - Played in 2 big bands, 2 quartets, and an orchestra
 - Served with an [[https://americorps.gov/serve/americorps/americorps-vista][AmeriCorps Vista]] to teach FIRST Robotics to 3 elementary schools and 2 middle schools (and developed an educational plan to go along with it)
 - Took some courses (3 community college courses, [[https://coursera.org/share/29802cca497e8680b26b241d0ef50b59][Andrew Ng's Machine Learning Course]], [[https://coursera.org/share/daef661212dab251985d69e4fb71f730][AWS Certification]])
-- A slew projects ([[https://github.com/sachiniyer/Hercules][singing hercules doll]], rfid implants, [[https://github.com/sachiniyer/Electric-Trombone][electronic trombone]], [[https://github.com/sachiniyer/foot-pedal][guitar foot pedal]], [[https://github.com/sachiniyer/delivery-service][grocery delivery scheduler]], my original website, websites for friends)
+- A slew projects ([[https://github.com/sachiniyer/Hercules][singing hercules doll]], rfid implants, [[https://github.com/sachiniyer/Electric-Trombone][electronic trombone]], [[https://github.com/sachiniyer/foot-pedal][guitar foot pedal]], [[https://github.com/sachiniyer/delivery-service][grocery delivery scheduler]], [[https://web.archive.org/web/20220611100331/https://sachiniyer.com/][my original website]], websites for friends)
 - Contracted for a book publisher to write them a simple [[https://github.com/sachiniyer/book-recommendation][book recommendation engine]]
 - An internship at Hewlett Packard Enterprise
 
