@@ -38,14 +38,14 @@ If none of that works I found a [[https://gist.github.com/sachiniyer/58d42efa2c4
 ** What is the most fascinating thing you've learned in the past month?
 *Q: This doesn't have to be about programming.*
 
-When I was in high school, I really loved mechanical engineering. This love was fostered through FIRST robotics and projects like [[https://github.com/sachiniyer/Electric-Trombone][my electronic trombone]]. I was captivated by building block concepts that are used as foundational abstractions to build more complex machines. Mechanical foundational abstractions are more fascinating to me than some software abstractions because there is a smaller abstraction stack. These concepts go straight to physics equations.
+When I was in high school, I really loved mechanical engineering. This love was fostered through FIRST robotics and projects like [[https://github.com/sachiniyer/Electric-Trombone][my electronic trombone]]. I was captivated by building block concepts that are used as foundational abstractions to build more complex machines. Mechanical foundational abstractions are often more fascinating to me than software abstractions because there is a smaller abstraction stack. These concepts go straight to simple physics equations.
 
 Some examples:
 - Need to convert rotational motion into linear motion? Use a [[https://en.wikipedia.org/wiki/Rack_and_pinion][Rack and Pinion]].
 - Want to create both longitudinal and rotational movement in your wheel base? Use a [[https://en.wikipedia.org/wiki/Mecanum_wheel][Mecanum Wheel]].
 - Struggling with machine vibration, and need to adjust for some resonant frequency? Use a [[https://en.wikipedia.org/wiki/Tuned_mass_damper][Tuned Mass Damper]].
 
-One of my friend, who courting an offer from [[https://apptronik.com/][apptronik]], introduced me to their novel building block of an elastic intermediary coupling two rotational components. This results in a safer and complaint rotational mechanism ([[https://sites.utexas.edu/hcrl/files/2018/06/Screen-Shot-2018-06-17-at-9.02.49-PM.png][image of the actuator]], [[https://sci-hub.ru/10.1109/tmech.2020.3036571][publication]], and [[https://sites.utexas.edu/hcrl/graduate-research/][research lab]]). I am /fascinated/ by how a seemingly simple, foundational idea can lead to such large changes in the robotics space (especially around human safety). Additionally, the idea of elastic being a force driving component is quite unintuitive to me, which makes it all the more fascinating.
+One of my friends, while courting an offer from [[https://apptronik.com/][apptronik]], introduced me to their novel building block of an elastic intermediary coupling two rotational components. This results in a safer and complaint rotational mechanism ([[https://sites.utexas.edu/hcrl/files/2018/06/Screen-Shot-2018-06-17-at-9.02.49-PM.png][image of the actuator]], [[https://sci-hub.ru/10.1109/tmech.2020.3036571][publication]], and [[https://sites.utexas.edu/hcrl/graduate-research/][research lab]]). I am /fascinated/ by how a seemingly simple, foundational idea can lead to such large changes in the robotics space (especially around human safety). Additionally, the idea of elastic being a force driving component is quite unintuitive to me, which makes it all the more fascinating.
 ** What do you want to be doing in two years?
 After working in software engineering professionally for about a year, I am realizing that I want to work on a project/product that I find interesting. I hope I have made a commitment to a company and am working on that project/problem.
 
@@ -72,7 +72,7 @@ A quick summary of the highlights:
 - Contracted for a book publisher to write them a simple [[https://github.com/sachiniyer/book-recommendation][book recommendation engine]]
 - An internship at Hewlett Packard Enterprise
 
-Since then, I have been committed to school or a company and have not had a chance to pursue projects like this. RC would give me the chance to formalize a commitment to a period of unstructured time. Without RC, I fear that I'll find myself in another structured commitment without giving myself a chance to explore some cool ideas.
+Since then, I have been committed to school or a company and have not had a chance to dedicate myself to pursuing projects like this. RC would give me the chance to formalize a commitment to a period of unstructured time. Without RC, I fear that I'll find myself in another structured commitment without giving myself a chance to explore some cool ideas.
 
 My dad says "ideas are like flowers, they need room to bloom".
 *** Make cool/smart friends
@@ -84,6 +84,22 @@ Quoting myself from earlier, my two year goal is to "make a commitment to a comp
 ** What would you like to work on at RC?
 *Q: E.g., things you want to learn or understand better, projects you want to build or contribute to, etc. Consider where the edge of your abilities is, and where you’d like it to be at the end of your batch.*
 
+From my idea backlog, here are a few that I think could be a good fit:
+- Framework x230: Fix my thinkpad x230 by embedding a framework motherboard inside. The complex parts would be:
+  - make [[https://github.com/qmk/qmk_firmware][qmk]] compatible with my thinkpad x230 keyboard and touchpad
+  - figure out how set up the rest of the peripherals (sleep sensor, microphone, camera...)
+  - set up power distribution correctly and battery correctly
+- Hack together a wasm specific metal kernel for [[https://github.com/huggingface/candle/tree/main/candle-metal-kernels][candle]] (with [[https://tinyml.mit.edu/][tinyml]] constructs)
+- Fuzz [[https://www.ray.io/][ray]] and try to submit a CVE (I've already seen some sketchy code and it seems like a good target)
+- Re-implement (or implement for the first time) some seminal and novel ml papers e.g.
+  - [[https://github.com/vllm-project/vllm][vllm]] in rust
+  - [[https://arxiv.org/abs/2210.16656][auxo]]
+  - [[https://arxiv.org/abs/2204.00595][monarch]]
+  - [[https://arxiv.org/abs/2107.10663][fed-ensemble]]
+- Create a highly optimized generative model to produce [[https://www.youtube.com/watch?v=RpHnKaxt_OQ][zoomquilt]] style content
+- If I haven't done it yet, complete most of the exercises from [[https://www.bishopbook.com/][bishop]]
+
+I am often not able to pursue personal projects that require larger time commitments. At the end of RC, I would like to have completed one of those larger projects. Hopefully, this pushes me deal with the technical, procedural, and motivational complexities involved in completing something that takes time.
 ** Do you plan to attend RC in-person, remotely, or some combination of the two? How will this affect your working style?
 *Q: If you'll be attending fully or partly remotely: have you worked remotely in the past? What was successful or challenging about that experience for you?*
 
@@ -107,6 +123,7 @@ Yes, I have a Computer Science Degree from New York University. I am not seeking
 If I get into RC, I will not work during that time. I also don't have any dependents to take care of. I anticipate my other commitments being very sparse.
 ** How did you first hear about RC?
 /Dropdown: A friend/coworker who didn't go to RC/
+
 *Q: Where specifically (e.g., which friend, conference, etc.)?*
 
 [[https://aneeshmaganti.com/][Aneesh Maganti]] and [[https://nyucswiki.com/docs/Opportunities/Fellowships][NYU CS Wiki]]
