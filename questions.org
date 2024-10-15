@@ -59,6 +59,14 @@ Interesting project/product to me does not require (assume disjunction):
 - Generating large monetary returns
 - Attached to lots of prestige
 - In a defined area of tech (e.g. machine learning)
+
+It is hard for me to give an exact answer to what I want to be doing in 2 years (I'm hoping RC can help me figure that out). However, to be specific on what interesting project/product means to me, here are a few examples:
+- Building firmware for a transformer ASIC at Etched
+- Working on candle to optimize the CUDA kernel and decrease inference times at HuggingFace
+- Optimizing KV Cache Compression for Workers AI at Cloudflare
+- Hack on ISR to deliver content faster at Vercel
+- Creating a smarter consensus system in Ray at Anyscale
+- Creating smarter DDOS recognition algorithms at Internet Archive ([[https://mastodon.archive.org/@internetarchive/112513905401989149][recent incident]])
 ** Why do you want to attend RC? How would attending RC be different than working on your own?
 *** Commitment to Unstructured Time
 One of my best decisions in hindsight was to take a gap year between high school and college. It gave me unstructured time to develop a passion for technology and create some of the coolest stuff I've done to date.
