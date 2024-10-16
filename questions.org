@@ -77,17 +77,17 @@ A quick summary of the highlights:
 - Played in 2 big bands, 2 quartets, and an orchestra
 - Served with an [[https://americorps.gov/serve/americorps/americorps-vista][AmeriCorps Vista]] to teach FIRST Robotics to 3 elementary schools and 2 middle schools (and developed an educational plan to go along with it)
 - Took some courses (3 community college courses, [[https://coursera.org/share/29802cca497e8680b26b241d0ef50b59][Andrew Ng's Machine Learning Course]], [[https://coursera.org/share/daef661212dab251985d69e4fb71f730][AWS Certification]])
-- A slew projects ([[https://github.com/sachiniyer/Hercules][singing hercules doll]], rfid implants, [[https://github.com/sachiniyer/Electric-Trombone][electronic trombone]], [[https://github.com/sachiniyer/foot-pedal][guitar foot pedal]], [[https://github.com/sachiniyer/delivery-service][grocery delivery scheduler]], [[https://web.archive.org/web/20220611100331/https://sachiniyer.com/][my original website]], websites for friends)
+- A slew of projects ([[https://github.com/sachiniyer/Hercules][singing hercules doll]], rfid implants, [[https://github.com/sachiniyer/Electric-Trombone][electronic trombone]], [[https://github.com/sachiniyer/foot-pedal][guitar foot pedal]], [[https://github.com/sachiniyer/delivery-service][grocery delivery scheduler]], [[https://web.archive.org/web/20220611100331/https://sachiniyer.com/][my original website]], websites for friends)
 - Contracted for a book publisher to write them a simple [[https://github.com/sachiniyer/book-recommendation][book recommendation engine]]
 - An internship at Hewlett Packard Enterprise
 
-Since then, I have been committed to school or a company and have not had a chance to dedicate myself to pursuing projects like this. RC would give me the chance to formalize a commitment to a period of unstructured time. Without RC, I fear that I'll find myself in another structured commitment without giving myself a chance to explore some cool ideas.
+Since then, I have been committed to school or a company and have not had a chance to dedicate myself to pursuing projects like these. RC would give me the chance to formalize a commitment to a period of unstructured time. Without RC, I fear that I'll find myself in another structured commitment without giving myself a chance to explore some cool ideas.
 
 My dad says "ideas are like flowers, they need room to bloom".
 *** Make cool/smart friends
 One of my worst decisions in hindsight was to graduate early from college. I lost a chance to interact and learn with cool/smart people in a friendly environment (especially with covid impacting my first two years). Additionally, I miss the vibrant discussions that I used to have with my friends about ideas and problems.
 
-I see RC as a chance to recover from that loss and carve out time to build connections and learn from my peers. I would consider this goal succeeded if I maintain one connection past the RC event who I continue to learn from. Additionally, anything that I build alone will be at least marginally worse than something I build with others.
+I see RC as a chance to recover from that loss and carve out time to build connections and learn from my peers. I would consider this goal succeeded if I maintain one connection past the RC event with whom I would continue to learn from. Additionally, anything that I build alone will be at least marginally worse than something I build with others.
 *** Recruitment Opportunities
 Quoting myself from earlier, my two year goal is to "make a commitment to a company and [work] on that project/problem." I am not currently at a place where I am able to make that commitment. I hope to be in a place to make that commitment soon. I think that the recurse center could help me along that journey of finding the company and project/product that is "interesting".
 ** What would you like to work on at RC?
