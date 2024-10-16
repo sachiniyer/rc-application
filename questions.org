@@ -140,11 +140,11 @@ If I get into RC, I will not work during that time. I also don't have any depend
 /Dropdown: 1-2 years ago/
 ** What convinced you to apply today?
 - [ ] I just learned about RC
-- [ ] I was just reminded about RC
+- [x] I was just reminded about RC
 - [ ] I'm ready to switch careers
 - [x] I'm ready to switch programming jobs
 - [ ] I'm ready to leave academia
-- [x] I'm ready for a professional sabbatical
+- [ ] I'm ready for a professional sabbatical
 - [ ] I lost my job
 - [ ] I'm looking for a programming job and haven't found one yet
 - [ ] It aligns with my family schedule (e.g., children off to college, partner's new job)
