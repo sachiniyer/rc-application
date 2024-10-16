@@ -38,20 +38,21 @@ If none of that works I found a [[https://gist.github.com/sachiniyer/58d42efa2c4
 ** What is the most fascinating thing you've learned in the past month?
 *Q: This doesn't have to be about programming.*
 
+Two weeks ago, one of my friends, while courting an offer from [[https://apptronik.com/][apptronik]], introduced me to their novel building block of an elastic intermediary coupling two rotational components. This results in a safer and complaint rotational mechanism ([[https://sites.utexas.edu/hcrl/files/2018/06/Screen-Shot-2018-06-17-at-9.02.49-PM.png][image of the actuator]], [[https://sci-hub.ru/10.1109/tmech.2020.3036571][publication]], and [[https://sites.utexas.edu/hcrl/graduate-research/][research lab]]). I am /fascinated/ by how a seemingly simple, foundational idea can lead to such large changes in the robotics space (especially around human safety). Additionally, the idea of elastic being a force driving component is quite unintuitive to me, which makes it all the more fascinating.
+
 When I was in high school, I really loved mechanical engineering. This love was fostered through FIRST robotics and projects like [[https://github.com/sachiniyer/Electric-Trombone][my electronic trombone]]. I was captivated by building block concepts that are used as foundational abstractions to build more complex machines. Mechanical foundational abstractions are often more fascinating to me than software abstractions because there is a smaller abstraction stack. These concepts go straight to simple physics equations.
 
-Some examples:
+Some other examples:
 - Need to convert rotational motion into linear motion? Use a [[https://en.wikipedia.org/wiki/Rack_and_pinion][Rack and Pinion]].
 - Want to create both longitudinal and rotational movement in your wheel base? Use a [[https://en.wikipedia.org/wiki/Mecanum_wheel][Mecanum Wheel]].
 - Struggling with machine vibration, and need to adjust for some resonant frequency? Use a [[https://en.wikipedia.org/wiki/Tuned_mass_damper][Tuned Mass Damper]].
 
-One of my friends, while courting an offer from [[https://apptronik.com/][apptronik]], introduced me to their novel building block of an elastic intermediary coupling two rotational components. This results in a safer and complaint rotational mechanism ([[https://sites.utexas.edu/hcrl/files/2018/06/Screen-Shot-2018-06-17-at-9.02.49-PM.png][image of the actuator]], [[https://sci-hub.ru/10.1109/tmech.2020.3036571][publication]], and [[https://sites.utexas.edu/hcrl/graduate-research/][research lab]]). I am /fascinated/ by how a seemingly simple, foundational idea can lead to such large changes in the robotics space (especially around human safety). Additionally, the idea of elastic being a force driving component is quite unintuitive to me, which makes it all the more fascinating.
 ** What do you want to be doing in two years?
-After working in software engineering professionally for about a year, I am realizing that I want to work on a project/product that I find interesting. I hope I have made a commitment to a company and am working on that project/problem.
+After working in software engineering professionally for about a year, I am realizing that I want to work on a project/product that I find interesting.
 
 Interesting project/product to me is:
-- Somewhat technically interesting - I need to satisfy my urge to solve puzzle-like problems
-- Brings some sort of value - giving people something of value and doing general worldly good improves my self-worth
+- Technically interesting - I need to satisfy my urge to solve puzzle-like problems
+- Brings value - giving people something of value and doing general worldly good improves my self-worth
 - Something I have passion for - a base emotional connection from a variety of factors (definitely the most fuzzy qualification)
 
 Interesting project/product to me does not require (assume disjunction):
