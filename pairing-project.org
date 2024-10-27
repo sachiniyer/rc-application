@@ -1,0 +1,75 @@
+* Your pairing interview
+ For your pairing interview, you'll share your screen and pair program with one of us on some code you've written. The process is as follows:
+
+- Before your interview, write a program that fulfills one of the programming tasks below. Use a programming language you are comfortable with.
+- Put your code in a Gist.
+- Submit a link to the Gist using the form below.
+- On the code submission confirmation page, book your pairing interview.
+- After you choose a time to pair, read the screen-sharing instructions and make sure you have the appropriate software set up for your interview.
+- Before your interview begins have your code running and ready to go, so that you can spend the interview programming.
+
+Our goal in this interview is not to get the task done; what we really want is to see what it's like to work with you. This is easiest if you select a task which is within your abilities but not trivial for you. A few things to keep in mind while choosing a task:
+
+- Walking us through a problem you know cold tells us nothing about how you debug, test, take suggestions, think about design, or act when you're confused.
+- Conversely, attempting an overly large or complicated task might mean that we don't get very much code written, which also makes it hard to get a read.
+- Preparing for the interview is not cheating! We expect you to come in with an idea of how to proceed; if you want to choose an interesting task and read up on it first, that's totally fine, but...
+- Please don't "practice" by implementing or memorizing the solution in advance - we've seen people walk through pre-written code before. While it's not a dealbreaker in itself, it makes it much harder to get the information we need to feel good about admitting you.
+
+Read through the tasks below even if you intend to submit your own project; they're good examples of what's feasible to tackle in 20 minutes. Remember you will need some extra time to acquaint your partner with your code, so please think about how to do this in advance.
+Programming tasks
+
+Tic Tac Toe game
+
+Before your interview, write a program that lets two humans play a game of Tic Tac Toe in a terminal. The program should let the players take turns to input their moves. The program should report the outcome of the game.
+
+During your interview, you will pair on adding support for a computer player to your game. You can start with random moves and make the AI smarter if you have time.
+
+Lisp parser
+
+Write code that takes some Lisp code and returns an abstract syntax tree. The AST should represent the structure of the code and the meaning of each token. For example, if your code is given "(first (list 1 (+ 2 3) 9))", it could return a nested array like ["first", ["list", 1, ["+", 2, 3], 9]].
+
+During your interview, you will pair on writing an interpreter to run the AST. You can start by implementing a single built-in function (for example, +) and add more if you have time.
+
+Space Invaders
+
+Write a game of Space Invaders that has computer-controller enemies that move left and right automatically and a human-controlled player that you can move left and right with the arrow keys.
+
+During your interview, you can add the ability to shoot bullets at the enemies and track your score.
+
+Database server
+
+Before your interview, write a program that runs a server that is accessible on http://localhost:4000/. When your server receives a request on http://localhost:4000/set?somekey=somevalue it should store the passed key and value in memory. When it receives a request on http://localhost:4000/get?key=somekey it should return the value stored at somekey.
+
+During your interview, you will pair on saving the data to a file. You can start with simply appending each write to the file, and work on making it more efficient if you have time.
+
+Symbolic differentiator
+
+Write a symbolic differentiator for polynomial expressions of one variable.
+
+During your interview, you can add pretty printing to display the results in a more human-friendly format or extend the code to handle more complex expressions.
+
+Your own project
+
+If you have an existing project that you are particularly excited about working on for your pairing interview, you can submit that. Ideally, the project should be something you've written from scratch (i.e., not using a framework).
+
+If you submit an existing project, please say what you would like to pair on during your interview. You can choose a bug to fix, a feature to add, or a refactor to do. The interview is only thirty minutes long, so pick something that could be reasonably accomplished in twenty minutes. Please also try to choose a project that won't require your interviewer to have a lot of context or domain-specific knowledge, since you don't want to spend your entire interview just trying to explain what your code does.
+
+Lastly, if you do choose your own task, please don't pick something too simple. Our goals for this interview are to understand where you are as a programmer, how you write code, and how you work through problems. If you choose a task that only requires writing one or two lines of code or which you can complete in just a couple of minutes, we likely won't learn what we need to learn from the interview to admit you.
+* Submit your code
+** Link to Code
+https://github.com/sachiniyer/website/blob/master/projects/main.js
+** Any Extra Remarks?
+I want to cluster the projects on my site together automatically inside of the browser. To do this, I will do with the following:
+
+1. Pull https://github.com/huggingface/transformers.js
+2. Load up a LLM
+3. Do the inference through the LLM and format back the results
+4. Display the information back through the browser
+
+I will do everything around the actual inference before the interview. During the interview, we could pair program to do the actual inference (estimated time 10min) and bugfix anything that comes up (estimated time 10min). At a base goal, I hope that we are at least getting output from the llm. As an extension, we could add a feature to have the llm expand/improve the project descriptions before displaying them.
+
+Everything is written in plain javascript so it should hopefully be easy to understand.
+
+Also just as a quick sidenote, I tried this once before using both k-means and lda to cluster the topics and cosine similarity to apply labels. Unfortunately, there is not enough information encoded in the actual project descriptions to use classical techniques. Now, I want to try to use the information encoded in an llm to try and do the clustering/labeling for us.
+** Language
+Javascript
